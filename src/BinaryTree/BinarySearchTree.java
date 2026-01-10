@@ -1,3 +1,5 @@
+package BinaryTree;
+
 import static java.lang.Math.max;
 
 public class BinarySearchTree {

@@ -175,7 +175,7 @@ public class Treap<E extends Comparable<E>> {
     /**
      * Bubble up newNode to restore heap property
      *
-     * @param stack   {Stack<Node<E>>}
+     * @param stack   {Stack.Stack<Node<E>>}
      * @param current {Node<E>}
      */
     private void reheap(Stack<Node<E>> stack, Node<E> current) {

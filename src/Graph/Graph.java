@@ -1,3 +1,5 @@
+package Graph;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 
@@ -16,7 +18,7 @@ public class Graph {
         second.neigbors.add(first);
     }
 
-    //BSF
+    //BFS
     void bsf() {
         for (GraphNode node : nodeList) {
             bsfVisit(node);

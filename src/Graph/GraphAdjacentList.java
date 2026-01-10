@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * Basic Graph
+ * Basic Graph.Graph
  * BFS/DFS and allPath
  */
 
@@ -42,7 +42,7 @@ public class GraphAdjacentList {
         graph[5].add(new Edge(5, 4));
 
    /*     for (int i = 0; i < graph[1].size(); i++) {
-            Graph.Edge e = graph[1].get(i);
+            Graph.Graph.Edge e = graph[1].get(i);
             System.out.println(e.dist + "" + e.src);
         }*/
     }
